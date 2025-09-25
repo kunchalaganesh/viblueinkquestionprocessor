@@ -1,0 +1,31 @@
+﻿# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env & secrets
+.env
+*.env
+.env.*
+
+# Logs & temps
+*.log
+*.tmp
+*.cache
+
+# App uploads/runtime
+sessions/
+uploads/
+tmp/
+cache/
+
+# PHP deps (if you add Composer later)
+vendor/
+
+# Node (if any tooling)
+node_modules/
+
+# Build artifacts
+dist/
+build/
